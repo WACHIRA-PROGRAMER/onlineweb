@@ -5,7 +5,7 @@
 }
 
 body {
-    background: url(img/back2.jpg) no-repeat center center/cover;
+    background: url(back2.jpg) no-repeat center center/cover;
     height: 100vh;
     background-color: rgb(0, 0, 0, 0.6);
 
@@ -134,4 +134,5 @@ footer {
     display: flex;
     font-size: large;
     background-color: rgba(31, 255, 11, 0.6);
+
 }
