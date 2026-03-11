@@ -18,10 +18,8 @@ body {
 
 /*image of the logo*/
 img {
-  max-height: 40px;
-  max-width: 40px;
-  height: 100%;
-  width: 100%;
+  height: 40px;
+  width: 40px;
   box-shadow: 0 0 20px, rgba(0, 0, 0, 0.6);
   flex-shrink: 0;
 
@@ -127,3 +125,4 @@ footer {
   margin-top: 40px;
 
 }
+
