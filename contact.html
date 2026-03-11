@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="contact.css">
+  <title>Contact Us</title>
+</head>
+
+<body>
+  <section class="major">
+    <div class="navbar">
+
+      <nav>
+        <div class="logo"><img src="img/logo.png" alt="">ErimTech</div>
+
+        <ul>
+          <!--to be connected to different codes accodingly-->
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+
+        </ul>
+      </nav>
+  </section>
+  <div class="contact">
+
+    <h1>Contact Us</h1>
+
+    <div class="contact-box">
+
+      <div class="contact-form">
+        <h2>Send Message</h2>
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+          <input type="hidden" name="access_key" value="9d291154-4af3-4f7d-990d-f7148cc89441"
+            value="9d291154-4af3-4f7d-990d-f7148cc89441">
+
+          <input type="text" name="name" placeholder="Your Name" required>
+
+          <input type="email" name="email" placeholder="Your Email" required>
+
+          <input type="dial" name="contact" placeholder="555-555-555">
+
+          <h4>Chose the service you wish offerd</h4>
+          <label for="service">service</label>
+          <input type="text" id="service" name="service" list="service-list">
+          <datalist id="service-list">
+
+            <option value="Web designing.">Web designing.</option>
+            <option value="Graphical designing">Graphical designing</option>
+            <option value="Programming">Programming</option>
+            <option value="Network Installion">Network installion</option>
+            <option value="IT Support">IT Suopport</option>
+            <option value="Cyber Security">Cyber Security</option>
+            <option value="Network Configuration">Network configuration</option>
+            <option value="Database managment">Database managment</option>
+            <option value="Computer and components purchase">Computer and components purchase</option>
+            <option value="System Maintainance">System maintainance</option>
+            <option value="Cloud Services">Cloud Services</option>
+          </datalist>
+
+          <textarea rows="5" name="message" placeholder="Describe the service here"></textarea>
+
+          <button type="submit">Send Message😊</button>
+
+        </form>
+
+      </div>
+
+      <div class="contact-info">
+
+        <h3>Contact Information</h3>
+
+        <p><strong>Address:</strong> Nairobi, Kenya</p>
+        <p><strong>Phone:</strong> +2541 172 533 539</p>
+        <p><strong>Email:</strong> erimtechnologies@gmail.com</p>
+        <p><strong>Working Hours:</strong><br>
+          Mon - Sat : 8am - 5pm</p>
+        <img src="img/back1.jpg" alt="">
+      </div>
+
+    </div>
+  </div>
+
+
+  <footer>&lt;&lt;&lt;&copy;2026 Erim Technologies &gt;&gt;&gt;</footer>
+</body>
+
+</html>

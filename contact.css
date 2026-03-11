@@ -1,0 +1,145 @@
+ body {
+   background: url(img/back3.jpg) no-repeat center center/cover;
+   height: 100vh;
+   background-color: rgb(0, 0, 0, 0.6);
+
+ }
+
+ /*overall front page*/
+ .major {
+   background-color: rgba(0, 0, 0, 0.6);
+   color: white;
+   height: 20vh;
+   padding-top: 0%;
+ }
+
+ /*logo*/
+ .logo {
+   color: aqua;
+   font-size: 40px;
+   font-weight: 500;
+   font-style: italic;
+   align-items: center;
+   display: flex;
+   white-space: nowrap;
+
+ }
+
+ /*image of the logo*/
+ img {
+   height: 40px;
+   width: 40px;
+   box-shadow: 0 0 20px, rgba(163, 50, 50, 0.6);
+   flex-shrink: 0;
+
+ }
+
+ /*navigation tab*/
+ nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 50px;
+   flex-wrap: wrap;
+
+ }
+
+ nav ul {
+   list-style: none;
+   display: flex;
+   gap: 20px;
+
+ }
+
+ nav ul li a {
+   text-decoration: none;
+   color: white;
+   font-weight: bold;
+ }
+
+ nav ul li a:hover {
+   color: #00ff15;
+ }
+
+ /* Contact Section */
+ .contact {
+   width: 90%;
+   margin: auto;
+
+
+
+
+ }
+
+ h1 {
+   text-align: center;
+   margin-bottom: 30px;
+   color: #0c97f3;
+   box-shadow: 0 0 10px rgba(192, 49, 49, 0.2);
+ }
+
+ /* Contact Layout */
+ .contact-box {
+   display: flex;
+   background: white;
+   border-radius: 8px;
+   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+ }
+
+ /* Form */
+ .contact-form {
+   flex: 2;
+   padding: 30px;
+ }
+
+ .contact-form input,
+ .contact-form textarea {
+   width: 100%;
+   padding: 10px;
+   margin: 10px 0;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+ }
+
+ .contact-form button {
+   background: #007BFF;
+   color: white;
+   border: none;
+   padding: 12px 20px;
+   cursor: pointer;
+   border-radius: 4px;
+ }
+
+ .contact-form button:hover {
+   background: #0056b3;
+ }
+
+ /* Contact Info */
+ .contact-info {
+   flex: 1;
+   background: #007BFF;
+   color: white;
+   padding: 30px;
+ }
+
+ .contact-info h3 {
+   margin-top: 0;
+ }
+
+ .contact-info img {
+   height: 200px;
+   width: 200px;
+   box-shadow: 0 0 20px, rgba(163, 50, 50, 0.6);
+   border-radius: 50%;
+
+ }
+
+ /* Footer */
+ footer {
+   text-align: center;
+   padding: 15px;
+   background: #333;
+   color: white;
+   margin-top: 40px;
+ }
